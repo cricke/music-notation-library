@@ -1,0 +1,808 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A96C638E18E65B0D0007F8D9 /* BBZlibError.m in Sources */ = {isa = PBXBuildFile; fileRef = A96C638718E65B0D0007F8D9 /* BBZlibError.m */; };
+		A96C638F18E65B0D0007F8D9 /* BBZlibError.m in Sources */ = {isa = PBXBuildFile; fileRef = A96C638718E65B0D0007F8D9 /* BBZlibError.m */; };
+		A96C639018E65B0D0007F8D9 /* NSData+zlib.m in Sources */ = {isa = PBXBuildFile; fileRef = A96C638918E65B0D0007F8D9 /* NSData+zlib.m */; };
+		A96C639118E65B0D0007F8D9 /* NSData+zlib.m in Sources */ = {isa = PBXBuildFile; fileRef = A96C638918E65B0D0007F8D9 /* NSData+zlib.m */; };
+		A96C639218E65B0D0007F8D9 /* FileReader.m in Sources */ = {isa = PBXBuildFile; fileRef = A96C638B18E65B0D0007F8D9 /* FileReader.m */; };
+		A96C639318E65B0D0007F8D9 /* FileReader.m in Sources */ = {isa = PBXBuildFile; fileRef = A96C638B18E65B0D0007F8D9 /* FileReader.m */; };
+		A96C639418E65B0D0007F8D9 /* NWCParser.m in Sources */ = {isa = PBXBuildFile; fileRef = A96C638D18E65B0D0007F8D9 /* NWCParser.m */; };
+		A96C639518E65B0D0007F8D9 /* NWCParser.m in Sources */ = {isa = PBXBuildFile; fileRef = A96C638D18E65B0D0007F8D9 /* NWCParser.m */; };
+		A96C63A818E65B250007F8D9 /* MNLAbstractNote.m in Sources */ = {isa = PBXBuildFile; fileRef = A96C639718E65B250007F8D9 /* MNLAbstractNote.m */; };
+		A96C63A918E65B250007F8D9 /* MNLAbstractNote.m in Sources */ = {isa = PBXBuildFile; fileRef = A96C639718E65B250007F8D9 /* MNLAbstractNote.m */; };
+		A96C63AA18E65B250007F8D9 /* MNLCompositeStaffItem.m in Sources */ = {isa = PBXBuildFile; fileRef = A96C639918E65B250007F8D9 /* MNLCompositeStaffItem.m */; };
+		A96C63AB18E65B250007F8D9 /* MNLCompositeStaffItem.m in Sources */ = {isa = PBXBuildFile; fileRef = A96C639918E65B250007F8D9 /* MNLCompositeStaffItem.m */; };
+		A96C63AC18E65B250007F8D9 /* MNLFontInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = A96C639B18E65B250007F8D9 /* MNLFontInfo.m */; };
+		A96C63AD18E65B250007F8D9 /* MNLFontInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = A96C639B18E65B250007F8D9 /* MNLFontInfo.m */; };
+		A96C63AE18E65B250007F8D9 /* MNLLyrics.m in Sources */ = {isa = PBXBuildFile; fileRef = A96C639D18E65B250007F8D9 /* MNLLyrics.m */; };
+		A96C63AF18E65B250007F8D9 /* MNLLyrics.m in Sources */ = {isa = PBXBuildFile; fileRef = A96C639D18E65B250007F8D9 /* MNLLyrics.m */; };
+		A96C63B018E65B250007F8D9 /* MNLLyricsLine.m in Sources */ = {isa = PBXBuildFile; fileRef = A96C639F18E65B250007F8D9 /* MNLLyricsLine.m */; };
+		A96C63B118E65B250007F8D9 /* MNLLyricsLine.m in Sources */ = {isa = PBXBuildFile; fileRef = A96C639F18E65B250007F8D9 /* MNLLyricsLine.m */; };
+		A96C63B218E65B250007F8D9 /* MNLPlaceableStaffItem.m in Sources */ = {isa = PBXBuildFile; fileRef = A96C63A118E65B250007F8D9 /* MNLPlaceableStaffItem.m */; };
+		A96C63B318E65B250007F8D9 /* MNLPlaceableStaffItem.m in Sources */ = {isa = PBXBuildFile; fileRef = A96C63A118E65B250007F8D9 /* MNLPlaceableStaffItem.m */; };
+		A96C63B418E65B250007F8D9 /* MNLSong.m in Sources */ = {isa = PBXBuildFile; fileRef = A96C63A318E65B250007F8D9 /* MNLSong.m */; };
+		A96C63B518E65B250007F8D9 /* MNLSong.m in Sources */ = {isa = PBXBuildFile; fileRef = A96C63A318E65B250007F8D9 /* MNLSong.m */; };
+		A96C63B618E65B250007F8D9 /* MNLStaff.m in Sources */ = {isa = PBXBuildFile; fileRef = A96C63A518E65B250007F8D9 /* MNLStaff.m */; };
+		A96C63B718E65B250007F8D9 /* MNLStaff.m in Sources */ = {isa = PBXBuildFile; fileRef = A96C63A518E65B250007F8D9 /* MNLStaff.m */; };
+		A96C63B818E65B250007F8D9 /* MNLStaffItem.m in Sources */ = {isa = PBXBuildFile; fileRef = A96C63A718E65B250007F8D9 /* MNLStaffItem.m */; };
+		A96C63B918E65B250007F8D9 /* MNLStaffItem.m in Sources */ = {isa = PBXBuildFile; fileRef = A96C63A718E65B250007F8D9 /* MNLStaffItem.m */; };
+		A96C63BC18E65B400007F8D9 /* MNLTemporalStaffItem.m in Sources */ = {isa = PBXBuildFile; fileRef = A96C63BB18E65B400007F8D9 /* MNLTemporalStaffItem.m */; };
+		A96C63BD18E65B400007F8D9 /* MNLTemporalStaffItem.m in Sources */ = {isa = PBXBuildFile; fileRef = A96C63BB18E65B400007F8D9 /* MNLTemporalStaffItem.m */; };
+		A96C63E518E65B640007F8D9 /* MNLBarLine.m in Sources */ = {isa = PBXBuildFile; fileRef = A96C63C018E65B640007F8D9 /* MNLBarLine.m */; };
+		A96C63E618E65B640007F8D9 /* MNLBarLine.m in Sources */ = {isa = PBXBuildFile; fileRef = A96C63C018E65B640007F8D9 /* MNLBarLine.m */; };
+		A96C63E718E65B640007F8D9 /* MNLClef.m in Sources */ = {isa = PBXBuildFile; fileRef = A96C63C218E65B640007F8D9 /* MNLClef.m */; };
+		A96C63E818E65B640007F8D9 /* MNLClef.m in Sources */ = {isa = PBXBuildFile; fileRef = A96C63C218E65B640007F8D9 /* MNLClef.m */; };
+		A96C63E918E65B640007F8D9 /* MNLCompositeNote.m in Sources */ = {isa = PBXBuildFile; fileRef = A96C63C418E65B640007F8D9 /* MNLCompositeNote.m */; };
+		A96C63EA18E65B640007F8D9 /* MNLCompositeNote.m in Sources */ = {isa = PBXBuildFile; fileRef = A96C63C418E65B640007F8D9 /* MNLCompositeNote.m */; };
+		A96C63EB18E65B640007F8D9 /* MNLCompositeRest.m in Sources */ = {isa = PBXBuildFile; fileRef = A96C63C618E65B640007F8D9 /* MNLCompositeRest.m */; };
+		A96C63EC18E65B640007F8D9 /* MNLCompositeRest.m in Sources */ = {isa = PBXBuildFile; fileRef = A96C63C618E65B640007F8D9 /* MNLCompositeRest.m */; };
+		A96C63ED18E65B640007F8D9 /* MNLDynamicMarking.m in Sources */ = {isa = PBXBuildFile; fileRef = A96C63C818E65B640007F8D9 /* MNLDynamicMarking.m */; };
+		A96C63EE18E65B640007F8D9 /* MNLDynamicMarking.m in Sources */ = {isa = PBXBuildFile; fileRef = A96C63C818E65B640007F8D9 /* MNLDynamicMarking.m */; };
+		A96C63EF18E65B640007F8D9 /* MNLDynamicVariance.m in Sources */ = {isa = PBXBuildFile; fileRef = A96C63CA18E65B640007F8D9 /* MNLDynamicVariance.m */; };
+		A96C63F018E65B640007F8D9 /* MNLDynamicVariance.m in Sources */ = {isa = PBXBuildFile; fileRef = A96C63CA18E65B640007F8D9 /* MNLDynamicVariance.m */; };
+		A96C63F118E65B640007F8D9 /* MNLFlowDirection.m in Sources */ = {isa = PBXBuildFile; fileRef = A96C63CC18E65B640007F8D9 /* MNLFlowDirection.m */; };
+		A96C63F218E65B640007F8D9 /* MNLFlowDirection.m in Sources */ = {isa = PBXBuildFile; fileRef = A96C63CC18E65B640007F8D9 /* MNLFlowDirection.m */; };
+		A96C63F318E65B640007F8D9 /* MNLInstrumentPatch.m in Sources */ = {isa = PBXBuildFile; fileRef = A96C63CE18E65B640007F8D9 /* MNLInstrumentPatch.m */; };
+		A96C63F418E65B640007F8D9 /* MNLInstrumentPatch.m in Sources */ = {isa = PBXBuildFile; fileRef = A96C63CE18E65B640007F8D9 /* MNLInstrumentPatch.m */; };
+		A96C63F518E65B640007F8D9 /* MNLKeySignature.m in Sources */ = {isa = PBXBuildFile; fileRef = A96C63D018E65B640007F8D9 /* MNLKeySignature.m */; };
+		A96C63F618E65B640007F8D9 /* MNLKeySignature.m in Sources */ = {isa = PBXBuildFile; fileRef = A96C63D018E65B640007F8D9 /* MNLKeySignature.m */; };
+		A96C63F718E65B640007F8D9 /* MNLMultipointController.m in Sources */ = {isa = PBXBuildFile; fileRef = A96C63D218E65B640007F8D9 /* MNLMultipointController.m */; };
+		A96C63F818E65B640007F8D9 /* MNLMultipointController.m in Sources */ = {isa = PBXBuildFile; fileRef = A96C63D218E65B640007F8D9 /* MNLMultipointController.m */; };
+		A96C63F918E65B640007F8D9 /* MNLNote.m in Sources */ = {isa = PBXBuildFile; fileRef = A96C63D418E65B640007F8D9 /* MNLNote.m */; };
+		A96C63FA18E65B640007F8D9 /* MNLNote.m in Sources */ = {isa = PBXBuildFile; fileRef = A96C63D418E65B640007F8D9 /* MNLNote.m */; };
+		A96C63FB18E65B640007F8D9 /* MNLPerformanceIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = A96C63D618E65B640007F8D9 /* MNLPerformanceIndicator.m */; };
+		A96C63FC18E65B640007F8D9 /* MNLPerformanceIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = A96C63D618E65B640007F8D9 /* MNLPerformanceIndicator.m */; };
+		A96C63FD18E65B640007F8D9 /* MNLRest.m in Sources */ = {isa = PBXBuildFile; fileRef = A96C63D818E65B640007F8D9 /* MNLRest.m */; };
+		A96C63FE18E65B640007F8D9 /* MNLRest.m in Sources */ = {isa = PBXBuildFile; fileRef = A96C63D818E65B640007F8D9 /* MNLRest.m */; };
+		A96C63FF18E65B640007F8D9 /* MNLSpecialEnding.m in Sources */ = {isa = PBXBuildFile; fileRef = A96C63DA18E65B640007F8D9 /* MNLSpecialEnding.m */; };
+		A96C640018E65B640007F8D9 /* MNLSpecialEnding.m in Sources */ = {isa = PBXBuildFile; fileRef = A96C63DA18E65B640007F8D9 /* MNLSpecialEnding.m */; };
+		A96C640118E65B640007F8D9 /* MNLSustainPedal.m in Sources */ = {isa = PBXBuildFile; fileRef = A96C63DC18E65B640007F8D9 /* MNLSustainPedal.m */; };
+		A96C640218E65B640007F8D9 /* MNLSustainPedal.m in Sources */ = {isa = PBXBuildFile; fileRef = A96C63DC18E65B640007F8D9 /* MNLSustainPedal.m */; };
+		A96C640318E65B640007F8D9 /* MNLTempoMarking.m in Sources */ = {isa = PBXBuildFile; fileRef = A96C63DE18E65B640007F8D9 /* MNLTempoMarking.m */; };
+		A96C640418E65B640007F8D9 /* MNLTempoMarking.m in Sources */ = {isa = PBXBuildFile; fileRef = A96C63DE18E65B640007F8D9 /* MNLTempoMarking.m */; };
+		A96C640518E65B640007F8D9 /* MNLTempoVariance.m in Sources */ = {isa = PBXBuildFile; fileRef = A96C63E018E65B640007F8D9 /* MNLTempoVariance.m */; };
+		A96C640618E65B640007F8D9 /* MNLTempoVariance.m in Sources */ = {isa = PBXBuildFile; fileRef = A96C63E018E65B640007F8D9 /* MNLTempoVariance.m */; };
+		A96C640718E65B640007F8D9 /* MNLText.m in Sources */ = {isa = PBXBuildFile; fileRef = A96C63E218E65B640007F8D9 /* MNLText.m */; };
+		A96C640818E65B640007F8D9 /* MNLText.m in Sources */ = {isa = PBXBuildFile; fileRef = A96C63E218E65B640007F8D9 /* MNLText.m */; };
+		A96C640918E65B640007F8D9 /* MNLTimeSignature.m in Sources */ = {isa = PBXBuildFile; fileRef = A96C63E418E65B640007F8D9 /* MNLTimeSignature.m */; };
+		A96C640A18E65B640007F8D9 /* MNLTimeSignature.m in Sources */ = {isa = PBXBuildFile; fileRef = A96C63E418E65B640007F8D9 /* MNLTimeSignature.m */; };
+		A96C640E18E65CC40007F8D9 /* nwc-16 in Resources */ = {isa = PBXBuildFile; fileRef = A96C640D18E65CC40007F8D9 /* nwc-16 */; };
+		A96C641018E65CF30007F8D9 /* MNLTestNwcParser.m in Sources */ = {isa = PBXBuildFile; fileRef = A96C640F18E65CF30007F8D9 /* MNLTestNwcParser.m */; };
+		A96C644518E6F0FF0007F8D9 /* MNLAbstractNote.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = A96C639618E65B250007F8D9 /* MNLAbstractNote.h */; };
+		A96C644618E6F14E0007F8D9 /* MNLSong.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = A96C63A218E65B250007F8D9 /* MNLSong.h */; };
+		A96C644718E6F1C20007F8D9 /* NWCParser.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = A96C638C18E65B0D0007F8D9 /* NWCParser.h */; };
+		A96C644818E6F1E90007F8D9 /* MNLBarLine.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = A96C63BF18E65B640007F8D9 /* MNLBarLine.h */; };
+		A96C644918E6F1E90007F8D9 /* MNLClef.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = A96C63C118E65B640007F8D9 /* MNLClef.h */; };
+		A96C644A18E6F1E90007F8D9 /* MNLCompositeNote.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = A96C63C318E65B640007F8D9 /* MNLCompositeNote.h */; };
+		A96C644B18E6F1E90007F8D9 /* MNLCompositeRest.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = A96C63C518E65B640007F8D9 /* MNLCompositeRest.h */; };
+		A96C644C18E6F1E90007F8D9 /* MNLDynamicMarking.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = A96C63C718E65B640007F8D9 /* MNLDynamicMarking.h */; };
+		A96C644D18E6F1E90007F8D9 /* MNLDynamicVariance.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = A96C63C918E65B640007F8D9 /* MNLDynamicVariance.h */; };
+		A96C644E18E6F1E90007F8D9 /* MNLFlowDirection.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = A96C63CB18E65B640007F8D9 /* MNLFlowDirection.h */; };
+		A96C644F18E6F1E90007F8D9 /* MNLInstrumentPatch.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = A96C63CD18E65B640007F8D9 /* MNLInstrumentPatch.h */; };
+		A96C645018E6F1E90007F8D9 /* MNLKeySignature.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = A96C63CF18E65B640007F8D9 /* MNLKeySignature.h */; };
+		A96C645118E6F1E90007F8D9 /* MNLMultipointController.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = A96C63D118E65B640007F8D9 /* MNLMultipointController.h */; };
+		A96C645218E6F1EA0007F8D9 /* MNLNote.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = A96C63D318E65B640007F8D9 /* MNLNote.h */; };
+		A96C645318E6F1EA0007F8D9 /* MNLPerformanceIndicator.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = A96C63D518E65B640007F8D9 /* MNLPerformanceIndicator.h */; };
+		A96C645418E6F1EA0007F8D9 /* MNLRest.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = A96C63D718E65B640007F8D9 /* MNLRest.h */; };
+		A96C645518E6F1EA0007F8D9 /* MNLSpecialEnding.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = A96C63D918E65B640007F8D9 /* MNLSpecialEnding.h */; };
+		A96C645618E6F1EA0007F8D9 /* MNLSustainPedal.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = A96C63DB18E65B640007F8D9 /* MNLSustainPedal.h */; };
+		A96C645718E6F1EA0007F8D9 /* MNLTempoMarking.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = A96C63DD18E65B640007F8D9 /* MNLTempoMarking.h */; };
+		A96C645818E6F1EA0007F8D9 /* MNLTempoVariance.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = A96C63DF18E65B640007F8D9 /* MNLTempoVariance.h */; };
+		A96C645918E6F1EA0007F8D9 /* MNLText.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = A96C63E118E65B640007F8D9 /* MNLText.h */; };
+		A96C645A18E6F1EA0007F8D9 /* MNLTimeSignature.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = A96C63E318E65B640007F8D9 /* MNLTimeSignature.h */; };
+		A96C645B18E6F2080007F8D9 /* MNLCompositeStaffItem.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = A96C639818E65B250007F8D9 /* MNLCompositeStaffItem.h */; };
+		A96C645C18E6F2080007F8D9 /* MNLFontInfo.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = A96C639A18E65B250007F8D9 /* MNLFontInfo.h */; };
+		A96C645D18E6F2080007F8D9 /* MNLLyrics.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = A96C639C18E65B250007F8D9 /* MNLLyrics.h */; };
+		A96C645E18E6F2080007F8D9 /* MNLLyricsLine.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = A96C639E18E65B250007F8D9 /* MNLLyricsLine.h */; };
+		A96C645F18E6F2080007F8D9 /* MNLPlaceableStaffItem.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = A96C63A018E65B250007F8D9 /* MNLPlaceableStaffItem.h */; };
+		A96C646018E6F2080007F8D9 /* MNLStaff.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = A96C63A418E65B250007F8D9 /* MNLStaff.h */; };
+		A96C646118E6F2080007F8D9 /* MNLStaffItem.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = A96C63A618E65B250007F8D9 /* MNLStaffItem.h */; };
+		A96C646218E6F2080007F8D9 /* MNLTemporalStaffItem.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = A96C63BA18E65B400007F8D9 /* MNLTemporalStaffItem.h */; };
+		A9D4413C18E76A7D004CB5BA /* MNLProperties.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = A9D4413818E74838004CB5BA /* MNLProperties.h */; };
+		A9D4414718E78924004CB5BA /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A9D4413D18E76DC4004CB5BA /* libz.dylib */; };
+		A9D4414C18E82C06004CB5BA /* NWCPropertyParser.m in Sources */ = {isa = PBXBuildFile; fileRef = A9D4414B18E82C06004CB5BA /* NWCPropertyParser.m */; };
+		A9D4414F18E82FB8004CB5BA /* NWCStaffItemParser.m in Sources */ = {isa = PBXBuildFile; fileRef = A9D4414E18E82FB8004CB5BA /* NWCStaffItemParser.m */; };
+		A9D4415018E82FB8004CB5BA /* NWCStaffItemParser.m in Sources */ = {isa = PBXBuildFile; fileRef = A9D4414E18E82FB8004CB5BA /* NWCStaffItemParser.m */; };
+		A9D4415318E83D62004CB5BA /* NWC.m in Sources */ = {isa = PBXBuildFile; fileRef = A9D4415218E83D62004CB5BA /* NWC.m */; };
+		A9D4415418E83D62004CB5BA /* NWC.m in Sources */ = {isa = PBXBuildFile; fileRef = A9D4415218E83D62004CB5BA /* NWC.m */; };
+		A9E9B51718E659160041A063 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9E9B51618E659160041A063 /* Foundation.framework */; };
+		A9E9B51C18E659160041A063 /* MusicNotationLibrary.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = A9E9B51B18E659160041A063 /* MusicNotationLibrary.h */; };
+		A9E9B52518E659170041A063 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9E9B52418E659170041A063 /* XCTest.framework */; };
+		A9E9B52618E659170041A063 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9E9B51618E659160041A063 /* Foundation.framework */; };
+		A9E9B52818E659170041A063 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9E9B52718E659170041A063 /* UIKit.framework */; };
+		A9E9B52B18E659170041A063 /* libMusicNotationLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A9E9B51318E659160041A063 /* libMusicNotationLibrary.a */; };
+		A9E9B53118E659170041A063 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A9E9B52F18E659170041A063 /* InfoPlist.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A9E9B52918E659170041A063 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9E9B50B18E659160041A063 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9E9B51218E659160041A063;
+			remoteInfo = MusicNotationLibrary;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A9E9B51118E659160041A063 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				A9D4413C18E76A7D004CB5BA /* MNLProperties.h in CopyFiles */,
+				A96C645B18E6F2080007F8D9 /* MNLCompositeStaffItem.h in CopyFiles */,
+				A96C645C18E6F2080007F8D9 /* MNLFontInfo.h in CopyFiles */,
+				A96C645D18E6F2080007F8D9 /* MNLLyrics.h in CopyFiles */,
+				A96C645E18E6F2080007F8D9 /* MNLLyricsLine.h in CopyFiles */,
+				A96C645F18E6F2080007F8D9 /* MNLPlaceableStaffItem.h in CopyFiles */,
+				A96C646018E6F2080007F8D9 /* MNLStaff.h in CopyFiles */,
+				A96C646118E6F2080007F8D9 /* MNLStaffItem.h in CopyFiles */,
+				A96C646218E6F2080007F8D9 /* MNLTemporalStaffItem.h in CopyFiles */,
+				A96C644818E6F1E90007F8D9 /* MNLBarLine.h in CopyFiles */,
+				A96C644918E6F1E90007F8D9 /* MNLClef.h in CopyFiles */,
+				A96C644A18E6F1E90007F8D9 /* MNLCompositeNote.h in CopyFiles */,
+				A96C644B18E6F1E90007F8D9 /* MNLCompositeRest.h in CopyFiles */,
+				A96C644C18E6F1E90007F8D9 /* MNLDynamicMarking.h in CopyFiles */,
+				A96C644D18E6F1E90007F8D9 /* MNLDynamicVariance.h in CopyFiles */,
+				A96C644E18E6F1E90007F8D9 /* MNLFlowDirection.h in CopyFiles */,
+				A96C644F18E6F1E90007F8D9 /* MNLInstrumentPatch.h in CopyFiles */,
+				A96C645018E6F1E90007F8D9 /* MNLKeySignature.h in CopyFiles */,
+				A96C645118E6F1E90007F8D9 /* MNLMultipointController.h in CopyFiles */,
+				A96C645218E6F1EA0007F8D9 /* MNLNote.h in CopyFiles */,
+				A96C645318E6F1EA0007F8D9 /* MNLPerformanceIndicator.h in CopyFiles */,
+				A96C645418E6F1EA0007F8D9 /* MNLRest.h in CopyFiles */,
+				A96C645518E6F1EA0007F8D9 /* MNLSpecialEnding.h in CopyFiles */,
+				A96C645618E6F1EA0007F8D9 /* MNLSustainPedal.h in CopyFiles */,
+				A96C645718E6F1EA0007F8D9 /* MNLTempoMarking.h in CopyFiles */,
+				A96C645818E6F1EA0007F8D9 /* MNLTempoVariance.h in CopyFiles */,
+				A96C645918E6F1EA0007F8D9 /* MNLText.h in CopyFiles */,
+				A96C645A18E6F1EA0007F8D9 /* MNLTimeSignature.h in CopyFiles */,
+				A96C644718E6F1C20007F8D9 /* NWCParser.h in CopyFiles */,
+				A96C644618E6F14E0007F8D9 /* MNLSong.h in CopyFiles */,
+				A96C644518E6F0FF0007F8D9 /* MNLAbstractNote.h in CopyFiles */,
+				A9E9B51C18E659160041A063 /* MusicNotationLibrary.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A96C638618E65B0D0007F8D9 /* BBZlibError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBZlibError.h; sourceTree = "<group>"; };
+		A96C638718E65B0D0007F8D9 /* BBZlibError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBZlibError.m; sourceTree = "<group>"; };
+		A96C638818E65B0D0007F8D9 /* NSData+zlib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+zlib.h"; sourceTree = "<group>"; };
+		A96C638918E65B0D0007F8D9 /* NSData+zlib.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+zlib.m"; sourceTree = "<group>"; };
+		A96C638A18E65B0D0007F8D9 /* FileReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileReader.h; sourceTree = "<group>"; };
+		A96C638B18E65B0D0007F8D9 /* FileReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileReader.m; sourceTree = "<group>"; };
+		A96C638C18E65B0D0007F8D9 /* NWCParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NWCParser.h; sourceTree = "<group>"; };
+		A96C638D18E65B0D0007F8D9 /* NWCParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = NWCParser.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		A96C639618E65B250007F8D9 /* MNLAbstractNote.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNLAbstractNote.h; sourceTree = "<group>"; };
+		A96C639718E65B250007F8D9 /* MNLAbstractNote.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNLAbstractNote.m; sourceTree = "<group>"; };
+		A96C639818E65B250007F8D9 /* MNLCompositeStaffItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNLCompositeStaffItem.h; sourceTree = "<group>"; };
+		A96C639918E65B250007F8D9 /* MNLCompositeStaffItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNLCompositeStaffItem.m; sourceTree = "<group>"; };
+		A96C639A18E65B250007F8D9 /* MNLFontInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNLFontInfo.h; sourceTree = "<group>"; };
+		A96C639B18E65B250007F8D9 /* MNLFontInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNLFontInfo.m; sourceTree = "<group>"; };
+		A96C639C18E65B250007F8D9 /* MNLLyrics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNLLyrics.h; sourceTree = "<group>"; };
+		A96C639D18E65B250007F8D9 /* MNLLyrics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNLLyrics.m; sourceTree = "<group>"; };
+		A96C639E18E65B250007F8D9 /* MNLLyricsLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNLLyricsLine.h; sourceTree = "<group>"; };
+		A96C639F18E65B250007F8D9 /* MNLLyricsLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNLLyricsLine.m; sourceTree = "<group>"; };
+		A96C63A018E65B250007F8D9 /* MNLPlaceableStaffItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNLPlaceableStaffItem.h; sourceTree = "<group>"; };
+		A96C63A118E65B250007F8D9 /* MNLPlaceableStaffItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNLPlaceableStaffItem.m; sourceTree = "<group>"; };
+		A96C63A218E65B250007F8D9 /* MNLSong.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNLSong.h; sourceTree = "<group>"; };
+		A96C63A318E65B250007F8D9 /* MNLSong.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNLSong.m; sourceTree = "<group>"; };
+		A96C63A418E65B250007F8D9 /* MNLStaff.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNLStaff.h; sourceTree = "<group>"; };
+		A96C63A518E65B250007F8D9 /* MNLStaff.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNLStaff.m; sourceTree = "<group>"; };
+		A96C63A618E65B250007F8D9 /* MNLStaffItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNLStaffItem.h; sourceTree = "<group>"; };
+		A96C63A718E65B250007F8D9 /* MNLStaffItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNLStaffItem.m; sourceTree = "<group>"; };
+		A96C63BA18E65B400007F8D9 /* MNLTemporalStaffItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNLTemporalStaffItem.h; sourceTree = "<group>"; };
+		A96C63BB18E65B400007F8D9 /* MNLTemporalStaffItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNLTemporalStaffItem.m; sourceTree = "<group>"; };
+		A96C63BF18E65B640007F8D9 /* MNLBarLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNLBarLine.h; sourceTree = "<group>"; };
+		A96C63C018E65B640007F8D9 /* MNLBarLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNLBarLine.m; sourceTree = "<group>"; };
+		A96C63C118E65B640007F8D9 /* MNLClef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNLClef.h; sourceTree = "<group>"; };
+		A96C63C218E65B640007F8D9 /* MNLClef.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNLClef.m; sourceTree = "<group>"; };
+		A96C63C318E65B640007F8D9 /* MNLCompositeNote.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNLCompositeNote.h; sourceTree = "<group>"; };
+		A96C63C418E65B640007F8D9 /* MNLCompositeNote.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNLCompositeNote.m; sourceTree = "<group>"; };
+		A96C63C518E65B640007F8D9 /* MNLCompositeRest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNLCompositeRest.h; sourceTree = "<group>"; };
+		A96C63C618E65B640007F8D9 /* MNLCompositeRest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNLCompositeRest.m; sourceTree = "<group>"; };
+		A96C63C718E65B640007F8D9 /* MNLDynamicMarking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNLDynamicMarking.h; sourceTree = "<group>"; };
+		A96C63C818E65B640007F8D9 /* MNLDynamicMarking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNLDynamicMarking.m; sourceTree = "<group>"; };
+		A96C63C918E65B640007F8D9 /* MNLDynamicVariance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNLDynamicVariance.h; sourceTree = "<group>"; };
+		A96C63CA18E65B640007F8D9 /* MNLDynamicVariance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNLDynamicVariance.m; sourceTree = "<group>"; };
+		A96C63CB18E65B640007F8D9 /* MNLFlowDirection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNLFlowDirection.h; sourceTree = "<group>"; };
+		A96C63CC18E65B640007F8D9 /* MNLFlowDirection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNLFlowDirection.m; sourceTree = "<group>"; };
+		A96C63CD18E65B640007F8D9 /* MNLInstrumentPatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNLInstrumentPatch.h; sourceTree = "<group>"; };
+		A96C63CE18E65B640007F8D9 /* MNLInstrumentPatch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNLInstrumentPatch.m; sourceTree = "<group>"; };
+		A96C63CF18E65B640007F8D9 /* MNLKeySignature.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNLKeySignature.h; sourceTree = "<group>"; };
+		A96C63D018E65B640007F8D9 /* MNLKeySignature.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNLKeySignature.m; sourceTree = "<group>"; };
+		A96C63D118E65B640007F8D9 /* MNLMultipointController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNLMultipointController.h; sourceTree = "<group>"; };
+		A96C63D218E65B640007F8D9 /* MNLMultipointController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNLMultipointController.m; sourceTree = "<group>"; };
+		A96C63D318E65B640007F8D9 /* MNLNote.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNLNote.h; sourceTree = "<group>"; };
+		A96C63D418E65B640007F8D9 /* MNLNote.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNLNote.m; sourceTree = "<group>"; };
+		A96C63D518E65B640007F8D9 /* MNLPerformanceIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNLPerformanceIndicator.h; sourceTree = "<group>"; };
+		A96C63D618E65B640007F8D9 /* MNLPerformanceIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNLPerformanceIndicator.m; sourceTree = "<group>"; };
+		A96C63D718E65B640007F8D9 /* MNLRest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNLRest.h; sourceTree = "<group>"; };
+		A96C63D818E65B640007F8D9 /* MNLRest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNLRest.m; sourceTree = "<group>"; };
+		A96C63D918E65B640007F8D9 /* MNLSpecialEnding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNLSpecialEnding.h; sourceTree = "<group>"; };
+		A96C63DA18E65B640007F8D9 /* MNLSpecialEnding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNLSpecialEnding.m; sourceTree = "<group>"; };
+		A96C63DB18E65B640007F8D9 /* MNLSustainPedal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNLSustainPedal.h; sourceTree = "<group>"; };
+		A96C63DC18E65B640007F8D9 /* MNLSustainPedal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNLSustainPedal.m; sourceTree = "<group>"; };
+		A96C63DD18E65B640007F8D9 /* MNLTempoMarking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNLTempoMarking.h; sourceTree = "<group>"; };
+		A96C63DE18E65B640007F8D9 /* MNLTempoMarking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNLTempoMarking.m; sourceTree = "<group>"; };
+		A96C63DF18E65B640007F8D9 /* MNLTempoVariance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNLTempoVariance.h; sourceTree = "<group>"; };
+		A96C63E018E65B640007F8D9 /* MNLTempoVariance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNLTempoVariance.m; sourceTree = "<group>"; };
+		A96C63E118E65B640007F8D9 /* MNLText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNLText.h; sourceTree = "<group>"; };
+		A96C63E218E65B640007F8D9 /* MNLText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNLText.m; sourceTree = "<group>"; };
+		A96C63E318E65B640007F8D9 /* MNLTimeSignature.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNLTimeSignature.h; sourceTree = "<group>"; };
+		A96C63E418E65B640007F8D9 /* MNLTimeSignature.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNLTimeSignature.m; sourceTree = "<group>"; };
+		A96C640D18E65CC40007F8D9 /* nwc-16 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "nwc-16"; sourceTree = "<group>"; };
+		A96C640F18E65CF30007F8D9 /* MNLTestNwcParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = MNLTestNwcParser.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		A9D4413818E74838004CB5BA /* MNLProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNLProperties.h; sourceTree = "<group>"; };
+		A9D4413D18E76DC4004CB5BA /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		A9D4414A18E82C06004CB5BA /* NWCPropertyParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NWCPropertyParser.h; sourceTree = "<group>"; };
+		A9D4414B18E82C06004CB5BA /* NWCPropertyParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NWCPropertyParser.m; sourceTree = "<group>"; };
+		A9D4414D18E82FB8004CB5BA /* NWCStaffItemParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NWCStaffItemParser.h; sourceTree = "<group>"; };
+		A9D4414E18E82FB8004CB5BA /* NWCStaffItemParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NWCStaffItemParser.m; sourceTree = "<group>"; };
+		A9D4415118E83D62004CB5BA /* NWC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NWC.h; sourceTree = "<group>"; };
+		A9D4415218E83D62004CB5BA /* NWC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NWC.m; sourceTree = "<group>"; };
+		A9E9B51318E659160041A063 /* libMusicNotationLibrary.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMusicNotationLibrary.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9E9B51618E659160041A063 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A9E9B51A18E659160041A063 /* MusicNotationLibrary-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MusicNotationLibrary-Prefix.pch"; sourceTree = "<group>"; };
+		A9E9B51B18E659160041A063 /* MusicNotationLibrary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MusicNotationLibrary.h; sourceTree = "<group>"; };
+		A9E9B52318E659170041A063 /* MusicNotationLibraryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MusicNotationLibraryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9E9B52418E659170041A063 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		A9E9B52718E659170041A063 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		A9E9B52E18E659170041A063 /* MusicNotationLibraryTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MusicNotationLibraryTests-Info.plist"; sourceTree = "<group>"; };
+		A9E9B53018E659170041A063 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A9E9B51018E659160041A063 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9E9B51718E659160041A063 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9E9B52018E659170041A063 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9D4414718E78924004CB5BA /* libz.dylib in Frameworks */,
+				A9E9B52518E659170041A063 /* XCTest.framework in Frameworks */,
+				A9E9B52B18E659170041A063 /* libMusicNotationLibrary.a in Frameworks */,
+				A9E9B52818E659170041A063 /* UIKit.framework in Frameworks */,
+				A9E9B52618E659170041A063 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A96C638418E65AEA0007F8D9 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				A96C63BE18E65B490007F8D9 /* staffitems */,
+				A96C639618E65B250007F8D9 /* MNLAbstractNote.h */,
+				A96C639718E65B250007F8D9 /* MNLAbstractNote.m */,
+				A96C639818E65B250007F8D9 /* MNLCompositeStaffItem.h */,
+				A96C639918E65B250007F8D9 /* MNLCompositeStaffItem.m */,
+				A96C639A18E65B250007F8D9 /* MNLFontInfo.h */,
+				A96C639B18E65B250007F8D9 /* MNLFontInfo.m */,
+				A96C639C18E65B250007F8D9 /* MNLLyrics.h */,
+				A96C639D18E65B250007F8D9 /* MNLLyrics.m */,
+				A96C639E18E65B250007F8D9 /* MNLLyricsLine.h */,
+				A96C639F18E65B250007F8D9 /* MNLLyricsLine.m */,
+				A96C63A018E65B250007F8D9 /* MNLPlaceableStaffItem.h */,
+				A96C63A118E65B250007F8D9 /* MNLPlaceableStaffItem.m */,
+				A96C63A218E65B250007F8D9 /* MNLSong.h */,
+				A96C63A318E65B250007F8D9 /* MNLSong.m */,
+				A96C63A418E65B250007F8D9 /* MNLStaff.h */,
+				A96C63A518E65B250007F8D9 /* MNLStaff.m */,
+				A96C63A618E65B250007F8D9 /* MNLStaffItem.h */,
+				A96C63A718E65B250007F8D9 /* MNLStaffItem.m */,
+				A96C63BA18E65B400007F8D9 /* MNLTemporalStaffItem.h */,
+				A96C63BB18E65B400007F8D9 /* MNLTemporalStaffItem.m */,
+				A9D4413818E74838004CB5BA /* MNLProperties.h */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		A96C638518E65AFC0007F8D9 /* parser */ = {
+			isa = PBXGroup;
+			children = (
+				A9D4414918E82B5A004CB5BA /* NWC */,
+				A96C638618E65B0D0007F8D9 /* BBZlibError.h */,
+				A96C638718E65B0D0007F8D9 /* BBZlibError.m */,
+				A96C638818E65B0D0007F8D9 /* NSData+zlib.h */,
+				A96C638918E65B0D0007F8D9 /* NSData+zlib.m */,
+				A96C638A18E65B0D0007F8D9 /* FileReader.h */,
+				A96C638B18E65B0D0007F8D9 /* FileReader.m */,
+			);
+			name = parser;
+			sourceTree = "<group>";
+		};
+		A96C63BE18E65B490007F8D9 /* staffitems */ = {
+			isa = PBXGroup;
+			children = (
+				A96C63BF18E65B640007F8D9 /* MNLBarLine.h */,
+				A96C63C018E65B640007F8D9 /* MNLBarLine.m */,
+				A96C63C118E65B640007F8D9 /* MNLClef.h */,
+				A96C63C218E65B640007F8D9 /* MNLClef.m */,
+				A96C63C318E65B640007F8D9 /* MNLCompositeNote.h */,
+				A96C63C418E65B640007F8D9 /* MNLCompositeNote.m */,
+				A96C63C518E65B640007F8D9 /* MNLCompositeRest.h */,
+				A96C63C618E65B640007F8D9 /* MNLCompositeRest.m */,
+				A96C63C718E65B640007F8D9 /* MNLDynamicMarking.h */,
+				A96C63C818E65B640007F8D9 /* MNLDynamicMarking.m */,
+				A96C63C918E65B640007F8D9 /* MNLDynamicVariance.h */,
+				A96C63CA18E65B640007F8D9 /* MNLDynamicVariance.m */,
+				A96C63CB18E65B640007F8D9 /* MNLFlowDirection.h */,
+				A96C63CC18E65B640007F8D9 /* MNLFlowDirection.m */,
+				A96C63CD18E65B640007F8D9 /* MNLInstrumentPatch.h */,
+				A96C63CE18E65B640007F8D9 /* MNLInstrumentPatch.m */,
+				A96C63CF18E65B640007F8D9 /* MNLKeySignature.h */,
+				A96C63D018E65B640007F8D9 /* MNLKeySignature.m */,
+				A96C63D118E65B640007F8D9 /* MNLMultipointController.h */,
+				A96C63D218E65B640007F8D9 /* MNLMultipointController.m */,
+				A96C63D318E65B640007F8D9 /* MNLNote.h */,
+				A96C63D418E65B640007F8D9 /* MNLNote.m */,
+				A96C63D518E65B640007F8D9 /* MNLPerformanceIndicator.h */,
+				A96C63D618E65B640007F8D9 /* MNLPerformanceIndicator.m */,
+				A96C63D718E65B640007F8D9 /* MNLRest.h */,
+				A96C63D818E65B640007F8D9 /* MNLRest.m */,
+				A96C63D918E65B640007F8D9 /* MNLSpecialEnding.h */,
+				A96C63DA18E65B640007F8D9 /* MNLSpecialEnding.m */,
+				A96C63DB18E65B640007F8D9 /* MNLSustainPedal.h */,
+				A96C63DC18E65B640007F8D9 /* MNLSustainPedal.m */,
+				A96C63DD18E65B640007F8D9 /* MNLTempoMarking.h */,
+				A96C63DE18E65B640007F8D9 /* MNLTempoMarking.m */,
+				A96C63DF18E65B640007F8D9 /* MNLTempoVariance.h */,
+				A96C63E018E65B640007F8D9 /* MNLTempoVariance.m */,
+				A96C63E118E65B640007F8D9 /* MNLText.h */,
+				A96C63E218E65B640007F8D9 /* MNLText.m */,
+				A96C63E318E65B640007F8D9 /* MNLTimeSignature.h */,
+				A96C63E418E65B640007F8D9 /* MNLTimeSignature.m */,
+			);
+			name = staffitems;
+			sourceTree = "<group>";
+		};
+		A9D4414918E82B5A004CB5BA /* NWC */ = {
+			isa = PBXGroup;
+			children = (
+				A96C638C18E65B0D0007F8D9 /* NWCParser.h */,
+				A96C638D18E65B0D0007F8D9 /* NWCParser.m */,
+				A9D4414A18E82C06004CB5BA /* NWCPropertyParser.h */,
+				A9D4414B18E82C06004CB5BA /* NWCPropertyParser.m */,
+				A9D4414D18E82FB8004CB5BA /* NWCStaffItemParser.h */,
+				A9D4414E18E82FB8004CB5BA /* NWCStaffItemParser.m */,
+				A9D4415118E83D62004CB5BA /* NWC.h */,
+				A9D4415218E83D62004CB5BA /* NWC.m */,
+			);
+			name = NWC;
+			sourceTree = "<group>";
+		};
+		A9E9B50A18E659160041A063 = {
+			isa = PBXGroup;
+			children = (
+				A9E9B51818E659160041A063 /* MusicNotationLibrary */,
+				A9E9B52C18E659170041A063 /* MusicNotationLibraryTests */,
+				A9E9B51518E659160041A063 /* Frameworks */,
+				A9E9B51418E659160041A063 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A9E9B51418E659160041A063 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A9E9B51318E659160041A063 /* libMusicNotationLibrary.a */,
+				A9E9B52318E659170041A063 /* MusicNotationLibraryTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A9E9B51518E659160041A063 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A9D4413D18E76DC4004CB5BA /* libz.dylib */,
+				A9E9B51618E659160041A063 /* Foundation.framework */,
+				A9E9B52418E659170041A063 /* XCTest.framework */,
+				A9E9B52718E659170041A063 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A9E9B51818E659160041A063 /* MusicNotationLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				A96C638518E65AFC0007F8D9 /* parser */,
+				A96C638418E65AEA0007F8D9 /* model */,
+				A9E9B51B18E659160041A063 /* MusicNotationLibrary.h */,
+				A9E9B51918E659160041A063 /* Supporting Files */,
+			);
+			path = MusicNotationLibrary;
+			sourceTree = "<group>";
+		};
+		A9E9B51918E659160041A063 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A9E9B51A18E659160041A063 /* MusicNotationLibrary-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A9E9B52C18E659170041A063 /* MusicNotationLibraryTests */ = {
+			isa = PBXGroup;
+			children = (
+				A96C640F18E65CF30007F8D9 /* MNLTestNwcParser.m */,
+				A96C640D18E65CC40007F8D9 /* nwc-16 */,
+				A9E9B52D18E659170041A063 /* Supporting Files */,
+			);
+			path = MusicNotationLibraryTests;
+			sourceTree = "<group>";
+		};
+		A9E9B52D18E659170041A063 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A9E9B52E18E659170041A063 /* MusicNotationLibraryTests-Info.plist */,
+				A9E9B52F18E659170041A063 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A9E9B51218E659160041A063 /* MusicNotationLibrary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9E9B53618E659170041A063 /* Build configuration list for PBXNativeTarget "MusicNotationLibrary" */;
+			buildPhases = (
+				A9E9B50F18E659160041A063 /* Sources */,
+				A9E9B51018E659160041A063 /* Frameworks */,
+				A9E9B51118E659160041A063 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MusicNotationLibrary;
+			productName = MusicNotationLibrary;
+			productReference = A9E9B51318E659160041A063 /* libMusicNotationLibrary.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		A9E9B52218E659170041A063 /* MusicNotationLibraryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9E9B53918E659170041A063 /* Build configuration list for PBXNativeTarget "MusicNotationLibraryTests" */;
+			buildPhases = (
+				A9E9B51F18E659170041A063 /* Sources */,
+				A9E9B52018E659170041A063 /* Frameworks */,
+				A9E9B52118E659170041A063 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A9E9B52A18E659170041A063 /* PBXTargetDependency */,
+			);
+			name = MusicNotationLibraryTests;
+			productName = MusicNotationLibraryTests;
+			productReference = A9E9B52318E659170041A063 /* MusicNotationLibraryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A9E9B50B18E659160041A063 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Cinus;
+			};
+			buildConfigurationList = A9E9B50E18E659160041A063 /* Build configuration list for PBXProject "MusicNotationLibrary" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A9E9B50A18E659160041A063;
+			productRefGroup = A9E9B51418E659160041A063 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A9E9B51218E659160041A063 /* MusicNotationLibrary */,
+				A9E9B52218E659170041A063 /* MusicNotationLibraryTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A9E9B52118E659170041A063 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9E9B53118E659170041A063 /* InfoPlist.strings in Resources */,
+				A96C640E18E65CC40007F8D9 /* nwc-16 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A9E9B50F18E659160041A063 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9D4414C18E82C06004CB5BA /* NWCPropertyParser.m in Sources */,
+				A96C63B418E65B250007F8D9 /* MNLSong.m in Sources */,
+				A96C63E518E65B640007F8D9 /* MNLBarLine.m in Sources */,
+				A96C63E718E65B640007F8D9 /* MNLClef.m in Sources */,
+				A96C63AC18E65B250007F8D9 /* MNLFontInfo.m in Sources */,
+				A96C639418E65B0D0007F8D9 /* NWCParser.m in Sources */,
+				A96C639018E65B0D0007F8D9 /* NSData+zlib.m in Sources */,
+				A96C63F318E65B640007F8D9 /* MNLInstrumentPatch.m in Sources */,
+				A96C63AA18E65B250007F8D9 /* MNLCompositeStaffItem.m in Sources */,
+				A96C63BC18E65B400007F8D9 /* MNLTemporalStaffItem.m in Sources */,
+				A96C639218E65B0D0007F8D9 /* FileReader.m in Sources */,
+				A96C640718E65B640007F8D9 /* MNLText.m in Sources */,
+				A96C63B218E65B250007F8D9 /* MNLPlaceableStaffItem.m in Sources */,
+				A96C63EF18E65B640007F8D9 /* MNLDynamicVariance.m in Sources */,
+				A96C63F918E65B640007F8D9 /* MNLNote.m in Sources */,
+				A96C638E18E65B0D0007F8D9 /* BBZlibError.m in Sources */,
+				A96C63B818E65B250007F8D9 /* MNLStaffItem.m in Sources */,
+				A96C63F718E65B640007F8D9 /* MNLMultipointController.m in Sources */,
+				A96C63ED18E65B640007F8D9 /* MNLDynamicMarking.m in Sources */,
+				A96C63E918E65B640007F8D9 /* MNLCompositeNote.m in Sources */,
+				A9D4414F18E82FB8004CB5BA /* NWCStaffItemParser.m in Sources */,
+				A96C63B018E65B250007F8D9 /* MNLLyricsLine.m in Sources */,
+				A96C640918E65B640007F8D9 /* MNLTimeSignature.m in Sources */,
+				A96C63FF18E65B640007F8D9 /* MNLSpecialEnding.m in Sources */,
+				A9D4415318E83D62004CB5BA /* NWC.m in Sources */,
+				A96C63EB18E65B640007F8D9 /* MNLCompositeRest.m in Sources */,
+				A96C63B618E65B250007F8D9 /* MNLStaff.m in Sources */,
+				A96C63F518E65B640007F8D9 /* MNLKeySignature.m in Sources */,
+				A96C640518E65B640007F8D9 /* MNLTempoVariance.m in Sources */,
+				A96C63AE18E65B250007F8D9 /* MNLLyrics.m in Sources */,
+				A96C63A818E65B250007F8D9 /* MNLAbstractNote.m in Sources */,
+				A96C640118E65B640007F8D9 /* MNLSustainPedal.m in Sources */,
+				A96C63FB18E65B640007F8D9 /* MNLPerformanceIndicator.m in Sources */,
+				A96C63F118E65B640007F8D9 /* MNLFlowDirection.m in Sources */,
+				A96C640318E65B640007F8D9 /* MNLTempoMarking.m in Sources */,
+				A96C63FD18E65B640007F8D9 /* MNLRest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9E9B51F18E659170041A063 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A96C63B518E65B250007F8D9 /* MNLSong.m in Sources */,
+				A96C63E618E65B640007F8D9 /* MNLBarLine.m in Sources */,
+				A96C63E818E65B640007F8D9 /* MNLClef.m in Sources */,
+				A96C63AD18E65B250007F8D9 /* MNLFontInfo.m in Sources */,
+				A96C639518E65B0D0007F8D9 /* NWCParser.m in Sources */,
+				A96C639118E65B0D0007F8D9 /* NSData+zlib.m in Sources */,
+				A96C63F418E65B640007F8D9 /* MNLInstrumentPatch.m in Sources */,
+				A96C641018E65CF30007F8D9 /* MNLTestNwcParser.m in Sources */,
+				A96C63AB18E65B250007F8D9 /* MNLCompositeStaffItem.m in Sources */,
+				A96C63BD18E65B400007F8D9 /* MNLTemporalStaffItem.m in Sources */,
+				A96C639318E65B0D0007F8D9 /* FileReader.m in Sources */,
+				A96C640818E65B640007F8D9 /* MNLText.m in Sources */,
+				A96C63B318E65B250007F8D9 /* MNLPlaceableStaffItem.m in Sources */,
+				A96C63F018E65B640007F8D9 /* MNLDynamicVariance.m in Sources */,
+				A96C63FA18E65B640007F8D9 /* MNLNote.m in Sources */,
+				A96C638F18E65B0D0007F8D9 /* BBZlibError.m in Sources */,
+				A96C63B918E65B250007F8D9 /* MNLStaffItem.m in Sources */,
+				A96C63F818E65B640007F8D9 /* MNLMultipointController.m in Sources */,
+				A96C63EE18E65B640007F8D9 /* MNLDynamicMarking.m in Sources */,
+				A96C63EA18E65B640007F8D9 /* MNLCompositeNote.m in Sources */,
+				A9D4415018E82FB8004CB5BA /* NWCStaffItemParser.m in Sources */,
+				A96C63B118E65B250007F8D9 /* MNLLyricsLine.m in Sources */,
+				A96C640A18E65B640007F8D9 /* MNLTimeSignature.m in Sources */,
+				A96C640018E65B640007F8D9 /* MNLSpecialEnding.m in Sources */,
+				A9D4415418E83D62004CB5BA /* NWC.m in Sources */,
+				A96C63EC18E65B640007F8D9 /* MNLCompositeRest.m in Sources */,
+				A96C63B718E65B250007F8D9 /* MNLStaff.m in Sources */,
+				A96C63F618E65B640007F8D9 /* MNLKeySignature.m in Sources */,
+				A96C640618E65B640007F8D9 /* MNLTempoVariance.m in Sources */,
+				A96C63AF18E65B250007F8D9 /* MNLLyrics.m in Sources */,
+				A96C63A918E65B250007F8D9 /* MNLAbstractNote.m in Sources */,
+				A96C640218E65B640007F8D9 /* MNLSustainPedal.m in Sources */,
+				A96C63FC18E65B640007F8D9 /* MNLPerformanceIndicator.m in Sources */,
+				A96C63F218E65B640007F8D9 /* MNLFlowDirection.m in Sources */,
+				A96C640418E65B640007F8D9 /* MNLTempoMarking.m in Sources */,
+				A96C63FE18E65B640007F8D9 /* MNLRest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A9E9B52A18E659170041A063 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A9E9B51218E659160041A063 /* MusicNotationLibrary */;
+			targetProxy = A9E9B52918E659170041A063 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A9E9B52F18E659170041A063 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9E9B53018E659170041A063 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A9E9B53418E659170041A063 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A9E9B53518E659170041A063 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A9E9B53718E659170041A063 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/MusicNotationLibrary.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MusicNotationLibrary/MusicNotationLibrary-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		A9E9B53818E659170041A063 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/MusicNotationLibrary.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MusicNotationLibrary/MusicNotationLibrary-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		A9E9B53A18E659170041A063 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MusicNotationLibrary/MusicNotationLibrary-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MusicNotationLibraryTests/MusicNotationLibraryTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		A9E9B53B18E659170041A063 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MusicNotationLibrary/MusicNotationLibrary-Prefix.pch";
+				INFOPLIST_FILE = "MusicNotationLibraryTests/MusicNotationLibraryTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A9E9B50E18E659160041A063 /* Build configuration list for PBXProject "MusicNotationLibrary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9E9B53418E659170041A063 /* Debug */,
+				A9E9B53518E659170041A063 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9E9B53618E659170041A063 /* Build configuration list for PBXNativeTarget "MusicNotationLibrary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9E9B53718E659170041A063 /* Debug */,
+				A9E9B53818E659170041A063 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9E9B53918E659170041A063 /* Build configuration list for PBXNativeTarget "MusicNotationLibraryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9E9B53A18E659170041A063 /* Debug */,
+				A9E9B53B18E659170041A063 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A9E9B50B18E659160041A063 /* Project object */;
+}
