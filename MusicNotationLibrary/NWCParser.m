@@ -270,7 +270,7 @@
     [reader skipBytes:1];
     staff.patchBankSelected = [reader nextBoolean]; // ((buf[7] & 1) == 1);
     [reader skipBytes:1];
-    staff.bank = validate([reader nextSignedShort], 0, 16383, 0, @"patch bank"); // buf[9], buf[10];
+    staff.soundBank = validate([reader nextSignedShort], 0, 16383, 0, @"patch bank"); // buf[9], buf[10];
     
     staff.instrumentPatchIndex = validate([reader nextUnsignedByte], 0, 127, 0, @"instrument patch index"); // buf[11];
     [reader skipBytes:1];

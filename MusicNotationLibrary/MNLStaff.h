@@ -34,7 +34,7 @@ typedef NS_ENUM(NSUInteger, MNLEndingBarStyle) {
 @property (nonatomic,assign) int channelNumber;
 @property (nonatomic,assign) int playbackDeviceIndex;
 @property (nonatomic,assign) bool patchBankSelected;
-@property (nonatomic,assign) int bank;
+@property (nonatomic,assign) int soundBank;
 @property (nonatomic,assign) int instrumentPatchIndex;
 @property (nonatomic,assign) MNLStaffStyle style;
 @property (nonatomic,assign) int upperHeight;
