@@ -10,6 +10,4 @@
 
 @interface MNLCompositeNote : MNLCompositeStaffItem
 
-@property (nonatomic,retain) NSArray *components;
-
 @end
