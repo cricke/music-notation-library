@@ -15,8 +15,7 @@
 	self = [super init];
 	if (self)
 	{
-		MNLAccidentals originalModifiers[] = {MNLAccidentalsNormal,MNLAccidentalsNormal,MNLAccidentalsNormal,MNLAccidentalsNormal,MNLAccidentalsNormal,MNLAccidentalsNormal,MNLAccidentalsNormal};
-		[self setKeymodifier:originalModifiers];
+        [self resetAllModifiers];
 	}
 	return self;
 }
@@ -28,6 +27,14 @@
 - (MNLAccidentals *)keymodifier
 {
 	return __keymodifier;
+}
+
+
+- (void)resetAllModifiers
+{
+    // clear potential modifiers in current measure
+    MNLAccidentals originalModifiers[] = {MNLAccidentalsNormal,MNLAccidentalsNormal,MNLAccidentalsNormal,MNLAccidentalsNormal,MNLAccidentalsNormal,MNLAccidentalsNormal,MNLAccidentalsNormal};
+    [self setKeymodifier:originalModifiers];
 }
 
 @end

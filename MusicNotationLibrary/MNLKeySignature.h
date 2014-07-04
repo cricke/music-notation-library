@@ -17,4 +17,6 @@
 
 @property (nonatomic,assign) MNLAccidentals *keymodifier;
 
+- (void)resetAllModifiers;
+
 @end
